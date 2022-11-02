@@ -1,4 +1,8 @@
 <template>
+    <nav>
+    <router-link to="/">1st</router-link> |
+    <router-link to="/second">SECOND</router-link>
+  </nav>
   <router-view />
 </template>
 
