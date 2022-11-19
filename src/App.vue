@@ -1,7 +1,9 @@
 <template>
     <nav>
-    <router-link to="/">1st</router-link> |
-    <router-link to="/second">SECOND</router-link>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/01">1st</router-link> |
+    <router-link to="/02">2nd</router-link> |
+    <router-link to="/03">3rd</router-link>
   </nav>
   <router-view />
 </template>
