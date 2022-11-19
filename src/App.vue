@@ -1,4 +1,16 @@
 <template>
+
+
+  <el-container>
+
+    <el-container>
+      <el-header style="background-color: rgb(200, 255, 200)">Header</el-header>
+      <el-main style="background-color: rgb(255, 200, 255)">Main</el-main>
+    </el-container>
+
+    <el-aside width="200px" style="background-color: rgb(255, 200, 200)">Aside</el-aside>
+  </el-container>
+
     <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/01">1st</router-link> |
