@@ -27,6 +27,37 @@
     >
       <q-list>
         <q-item-label header>Essential Links</q-item-label>
+
+        <q-item clickable tag="a" href="/01">
+          <q-item-section avatar>
+            <q-icon name="favorite" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>01</q-item-label>
+            <q-item-label caption>quasar.dev</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item clickable tag="a" href="/02">
+          <q-item-section avatar>
+            <q-icon name="science" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>02</q-item-label>
+            <q-item-label caption>quasar.dev</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item clickable tag="a" href="/03">
+          <q-item-section avatar>
+            <q-icon name="fingerprint" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>03</q-item-label>
+            <q-item-label caption>quasar.dev</q-item-label>
+          </q-item-section>
+        </q-item>
+
         <q-item clickable tag="a" target="_blank" href="https://quasar.dev">
           <q-item-section avatar>
             <q-icon name="school" />
