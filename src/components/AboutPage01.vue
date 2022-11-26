@@ -1,6 +1,6 @@
 <template>
   <div>
     <h1>ファーストページ</h1>
-    <img alt="Quasar logo" src="@/assets/images/image01.png">
+    <img alt="image_test" src="@/assets/images/image01.png" style="width: 600px">
   </div>
 </template>
